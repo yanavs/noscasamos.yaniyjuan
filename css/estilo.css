@@ -205,7 +205,7 @@ header .abajo {
   margin: 0px auto;
   transition: transform .2s;
   height: auto;
-  border-radius: 15px;
+  border-radius: 16px;
 }
 
 .container .nosotros img:hover {
