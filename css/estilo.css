@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #74610d;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header img {
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 2rem;
+}
+
+header .headerdesktop {
+  display: none;
+}
+
+header .nombres {
+  position: absolute;
+  top: 5%;
+  right: 25%;
+  width: 50%;
+}
+
+header .abajo {
+  display: block;
+  width: 3rem;
+  margin: 0px auto;
+  margin-top: 0.5rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+
+.noscasamos {
+  text-align: center;
+}
+
+.noscasamos img {
+  top: 20%;
+  width: 80%;
+  text-align: center;
+}
+
+.celebremos, .group, .musica {
+  vertical-align: middle;
+  background-color: #d3c2a4;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.celebremos .abajo, .group .abajo, .musica .abajo {
+  display: block;
+  width: 3rem;
+  margin: 0px auto;
+  margin-top: 1rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.celebremos img, .group img, .musica img {
+  width: 8rem;
+  margin: 2rem;
+}
+
+.celebremos h1, .group h1, .musica h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.celebremos p, .group p, .musica p {
+  padding: 1rem;
+  color: #74610d;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2rem;
+  margin: 0px;
+}
+
+.celebremos .btn, .group .btn, .musica .btn {
+  background-color: white;
+  opacity: 90%;
+  color: #74610d;
+  border: #74610d;
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.celebremos .btn:focus, .group .btn:focus, .musica .btn:focus {
+  background-color: white;
+  color: #74610d;
+}
+
+.celebremos .btn:active, .group .btn:active, .musica .btn:active {
+  background-color: white;
+  color: #74610d;
+  border: #74610d;
+}
+
+.celebremos .btn:hover, .group .btn:hover, .musica .btn:hover {
+  background-color: white;
+  color: #74610d;
+  border: #74610d;
+}
+
+.group .dresscode {
+  background-color: white;
+}
+
+.group .regalo .modal-body ul {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.group .regalo .modal-header {
+  background-color: #d3c2a4;
+}
+
+.group .regalo .modal-footer button {
+  background-color: #d3c2a4;
+  color: white;
+}
+
+.musica {
+  background-color: white;
+  padding-top: 2rem;
+}
+
+.musica .button {
+  background-color: #d3c2a4;
+  color: white;
+  border: #74610d;
+  box-shadow: none;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.musica .button:disabled {
+  border: #74610d;
+  box-shadow: none;
+  background-color: #74610d;
+}
+
+.musica .button:active {
+  border: #74610d;
+  box-shadow: none;
+}
+
+.musica .abajo {
+  margin-top: 40%;
+}
+
+.instagram {
+  background-color: white;
+}
+
+.instagram img {
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 10%;
+}
+
+.instagram .instadesktop {
+  display: none;
+}
+
+.container {
+  text-align: center;
+  height: auto;
+}
+
+.container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0px;
+}
+
+.container img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container .nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  height: auto;
+}
+
+.container .nosotros img {
+  width: 6rem;
+  padding: 0.5rem;
+  margin: 0px auto;
+  transition: transform .2s;
+  height: auto;
+  border-radius: 15px;
+}
+
+.container .nosotros img:hover {
+  transform: scale(2);
+}
+
+.footer {
+  margin: 0% auto;
+  text-align: center;
+  position: relative;
+}
+
+.footer img {
+  z-index: 1;
+  width: 100%;
+}
+
+.footer .btn-primary {
+  z-index: 3;
+  background-color: #d3c2a4;
+  color: #74610d;
+  border: #74610d;
+  width: 70%;
+  margin: 0px auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.footer .footerpc {
+  display: none;
+}
+
+@media screen and (min-width: 440px) {
+  .container .nosotros img {
+    width: 16rem;
+    margin: 3rem;
+  }
+  header .headermovil {
+    display: none;
+  }
+  header .headerdesktop {
+    display: block;
+  }
+  header .nombres {
+    width: 30%;
+    left: 10%;
+  }
+  .instagram .instadesktop {
+    display: block;
+  }
+  .instagram .instacel {
+    display: none;
+  }
+  .footer .footerpc {
+    display: block;
+  }
+  .footer .footermovil {
+    display: none;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
